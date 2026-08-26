@@ -1,0 +1,12 @@
+1. The most important elements of a C program are the preprocessor directives, main function, and other functions and calls.
+2. You can make code more readable in a lot of ways. The most common is proper formatting. You can use Clan formatter for C or IDEs often have built in formatting. This puts spaces and indents where they're needed as well as separating pieces of code onto different lines.
+3. According to the book, common pitfalls are missing semicolons, incorrect header files, and uninitialized variables.
+
+4. I added crazy spacing between variables and their values, put multiple things on the same row, and indented or unindented the rows randomly. It fixed these issues. One thing it didn't fix was putting the 2 #include statements on the same line. Even after formatting, it left those the same and threw an error because rand() from stdlib.h wasn't recognized.
+5. Automated formatting is really beneficial. It allows your programs to all follow the same formatting rules without you needing to be too strict about it during the writing process. It also helps you make long files of code readable almost immediately and saves you from formatting by hand.
+
+6. Program clarity is important because we rarely program entirely alone and we also rarely remember every reason we made every decision. Comments are important and are extremely useful. They can be distracting though if there is a comment after every line explaining what it does. You have to assume the person reading your code is knowledgeable enough to recognize code as it is but then use comments to answer the why of something. 
+
+7. The error when I divide by 0: 
+basic.c:30:17: warning: division by zero [-Wdiv-by-zero]
+   30 |     int bad = 7 / 0;
