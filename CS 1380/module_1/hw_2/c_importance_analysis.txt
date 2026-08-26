@@ -1,0 +1,4 @@
+1. C is still relevant because it is the basis of much of modern programming. The 3 major OSs are written in C and compilers for a lot of modern languages are written in C.
+2. The main advantage is the amount of control found in C over other languages. You can write "highly-optimized" code and there isn't a level of translation between the language and machine code so it is a lot faster.
+3. C23 allows for better error handling as well as being a little easier to write with better type inference.
+4. Industries like game development, IoT, and a lot of highly regulated industries like defense systems and military use C. 

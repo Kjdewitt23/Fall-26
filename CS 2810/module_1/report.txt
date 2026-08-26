@@ -1,0 +1,4 @@
+There are a few big differences between a microprocessor and a microcontroller. The main difference is that a microcontroller contains a microprocessor. A microprocessor is a standalone processing unit. A microcontroller has a microprocessor, memory, and I/O on a single chip. 
+microprocessors are used in anything that needs to run a program. This could be things that make sense like a computer, smart phone, or tablet. Microprocessors are general purpose and can be used nearly anywhere. Microcontrollers are made for a specific use. These could be in a vacuum, air conditioning unit, an oven, or car.
+An example of a microprocessor is something like the CPUs used in our computers. Intel i3, i5, i7, and i9 or AMD Ryzen 3, 5, 7, or 9.      
+An example of a microcontroller is the ATmega328P. This is the chip used on an Arduino Uno board. Other popular ones are the RPxxxx that are used for Raspberry Pis. 

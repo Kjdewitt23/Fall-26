@@ -1,0 +1,12 @@
+1. Linux is better to use because C is native to Linux making it a lot smoother. 
+2. It's important to specify because your system may default to a version you haven't written code for. If it defaults to C23, that should be fine as it's backwards compatible but it won't work the other way around.
+3. I can try to compile code with teh -std=c23 flag and see if it throws an error or not.
+
+4. gcc compiles the C code, checks for errors, then creates an executable file that can be run. It's important because it helps you catch if there's anything you messed up in your code.
+5. I learned about why we use -std to specify C23 as that isn't normally the default. I also learned about -Wall so that you can see all warnings while -Werror will stop the compilation as it treats a warning as an error.
+6. I want to learn more about gcc in general. There have been issues I had in the past that I believe a deeper knowledge of a compiler would have helped me solve.
+
+7. I got warnings because I had defined a variable incorrectly, as well as having an unused variable. 
+8. The exe size is smaller when you take care of all the warnings. gcc is trying to help you get the size as small as possible. 
+9. Using the -g flag allows you to use a debugger allowing you to step through the code. 
+10. there are many different reasons to use each compilation option. It depends on how much you have tested the code, if you're looking to compile in a certain way or if you need help debugging.

@@ -1,0 +1,14 @@
+The course outcomes seem to be the key topics covered in this class. More specifically, these things will happen in a C programming environment and Linux terminal.
+CO1: Demonstrate proficiency in command-line programming and file operations.
+CO2: Write, compile, and debug programs using modern development tools.
+CO3: Implement basic data structures and algorithms.
+CO4: Use functions, arrays, and pointers effectively.
+CO5: Apply programming concepts to solve real-world problems.
+CO6: Use development tools, version control, and debugging tools.
+
+My strategy to stay organized is pretty simple. I have a repository on my gitHub for this semester. It has folders inside it for each class. Within the CS 1380 class I will have a folder for each module which will contain the required and used files.
+My naming convention is straightforward. Fall 26 -> {class number}(example: CS 1380) -> Module{Module Number} -> {File name based on assignment}
+
+The assessment structure is pretty simple. Homework worth 55% of the grade, 2 midterms worth 10% each and a final worth 20%. The catch is that I have to get a 70% or higher on both the assignments and final to actually pass the class. 
+
+I'm looking to improve my C programming, shell use, and especially my overall knowledge when it comes to the structure and architecture of programs as a whole. C is very intricate and requires specific details that other languages don't so I think that will be extremely useful when using higher-level languages later in my career.

@@ -1,0 +1,15 @@
+I like the ls options -h, -t, and -a. The flag -h makes the memory human readable showing it in KB MG or GB. -t sorts the response by most recently modified. This would be useful to get to the file you just worked on and not have to sort through the default sort which I believe is name. -a is useful because it shows all files including hidden files. This is helpful because there's often other information that we don't have specific access to.
+
+I discovered that system directories are very organized and they are structured very uniformly. Every directory works the same way regardless of its contents.
+
+I practiced creating, copying, moving, and deleting.
+
+I'd like to learn more about find. I feel like it could be extremely useful but I don't know the right syntax to search using it yet.
+
+The #!/bin/sh line makes it so the computer knows to interpret the file with sh.
+
+sh semester is different because it uses sh to 'execute' the program even though it doesn't have execute permissions. ./semester executes the file directly.
+
+Permissions are either r - read, w - write, x - execute, or - meaning no permission. The chmod was able to edit these and added the execute permission.
+
+The curl command makes an HTTP request then displays information about the response. 

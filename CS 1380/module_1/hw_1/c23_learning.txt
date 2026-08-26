@@ -1,0 +1,5 @@
+1. C23 is the newest version of C. It has better error handling, type safety and generics.
+2. The role of the standard library is to modernize C APIs.
+3. C23 can run any older version of C. There are newer things that make it incompatible with older versions but all old C code can run on C23.
+4. C is relevant today because it gives you a lot of base control over the programs and the machine in general. It is stable and consistent and will continue to work forever.
+
