@@ -1,0 +1,37 @@
+find and locate output.
+find: 
+kjdewitt@Kollins:.../School/Fall 26$ find . -type f -name "*.c"
+./CS_1380/module_1/hw_1/c23_overview.c
+./CS_1380/module_1/hw_1/hello.c
+./CS_1380/module_1/hw_2/apply_exercise.c
+./CS_1380/module_1/hw_2/c23_intro.c
+./CS_1380/module_1/hw_2/compilation_test.c
+./CS_1380/module_2/hw_3/basic.c
+./CS_1380/module_2/hw_3/poor.c
+./CS_1380/module_2/hw_4/basic.c
+
+locate:
+kjdewitt@Kollins:.../School/Fall 26$ locate "*.c" | grep "^$(pwd)"
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_1/hw_1/c23_overview.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_1/hw_1/hello.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_1/hw_2/apply_exercise.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_1/hw_2/c23_intro.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_1/hw_2/compilation_test.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_2/hw_3/basic.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_2/hw_3/poor.c
+/mnt/c/Users/eleme/Desktop/School/Fall 26/CS_1380/module_2/hw_4/basic.c
+
+grep output: 
+kjdewitt@Kollins:.../School/Fall 26$ grep -ri --include="*.txt" "this" .
+./CS_1380/module_1/hw_1/course_setup.txt:The course outcomes seem to be the key topics covered in this class. More specifically, these things will happen in a C programming environment and Linux terminal.
+./CS_1380/module_1/hw_1/course_setup.txt:My strategy to stay organized is pretty simple. I have a repository on my gitHub for this semester. It has folders inside it for each class. Within the CS 1380 class I will have a folder for each module which will contain the required and used files.
+./CS_1380/module_1/hw_1/shell_exploration.txt:I like the ls options -h, -t, and -a. The flag -h makes the memory human readable showing it in KB MG or GB. -t sorts the response by most recently modified. This would be useful to get to the file you just worked on and not have to sort through the default sort which I believe is name. -a is useful because it shows all files including hidden files. This is helpful because there's often other information that we don't have specific access to.
+./CS_1380/module_1/hw_2/editor_analysis.txt:2. It helps by having a syntax highlighter, showing potential issues and warnings before compiling as well as having a built in terminal I can use to compile my code(Though I won't because I know that's part of this class).
+./CS_1380/module_2/hw_3/program_structure_analysis.txt:2. You can make code more readable in a lot of ways. The most common is proper formatting. You can use Clan formatter for C or IDEs often have built in formatting. This puts spaces and indents where they're needed as well as separating pieces of code onto different lines.
+./CS_2810/module_1/report.txt:microprocessors are used in anything that needs to run a program. This could be things that make sense like a computer, smart phone, or tablet. Microprocessors are general purpose and can be used nearly anywhere. Microcontrollers are made for a specific use. These could be in a vacuum, air conditioning unit, an oven, or car.
+./CS_2810/module_1/report.txt:An example of a microcontroller is the ATmega328P. This is the chip used on an Arduino Uno board. Other popular ones are the RPxxxx that are used for Raspberry Pis.
+
+1. You can find shell commands in a lot of different ways. You can use help or man fallowed by the command. I also look them up on google to see what command might work best.
+2. Find searches through your directories while locate searches through a created database using an index.
+3. Basic file commands are mkdir, touch, rm, mv, cp, and cd.
+4. The power of shell commands is really interesting. You can do so many things often quicker using a shell command than you could just using the gui.
