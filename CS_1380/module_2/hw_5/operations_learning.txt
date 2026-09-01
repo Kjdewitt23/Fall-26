@@ -1,0 +1,12 @@
+1. The operations I need are: addition - to add the tax total to the cost of the meal, multiplication - to calculate the tax and tip amount, and assignment - to give values to all the variables that are then printed out.
+2. I would use the assignment operator to assign values to variables or to give variables the values of other variables.
+
+3. Apples * price produces a double because one of the operands - price - is a double. 
+4. If you made total and int, it would remove the cents and end with a total of 6.
+5. If ratio were written like that, then the result would be 3 not 3.50. Same as total, it would remove the cents.
+6. Converting apples to a double in total and average is implicit, converting it to a double in ratio is explicit. Converting total to an int in dollars is explicit.
+7. The expected output is:
+Total cost: 6.93
+Whole dollars: 6
+Average: 5.00
+Ratio: 3.50
