@@ -1,0 +1,9 @@
+1. It returns 1. I know that because I was having an issue checking that the person input G, S, or F. Originally I was having it check the scanf and not the value of "category" This lead to me seeing that scanf returns the number of input values and not the input itself.
+
+2. We check them to make sure they're the right type as well as within the usable range. It stops ud from running into errors later in the code.
+
+3. I used && and || in checking the inputs were correct and checking the different values to make adjustments to the price. 
+
+4. Switch is a good fit because there is more than 2 options but they are mutually exclusive. It doesn't make sense to use it to check age because that's a binary question. Are they above or below 13 so it's much easier to just use a > or < operator. 
+
+5. I didn't cover that case in this assignment. It returns the text "Category must be either G, S, or F. 
