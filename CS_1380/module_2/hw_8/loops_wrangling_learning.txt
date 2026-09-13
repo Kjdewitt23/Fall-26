@@ -1,0 +1,61 @@
+1. I used do-while when asking for the user input. I didn't see the need to use both so I only used do-while because I wanted to ask the user for input at least once.
+2. While and do-while fit better because we don't know how many times we will need to re-prompt. It's possible to do with a for loop but it's far more human readable using a while or do-while.
+3. It runs the scanf with the next input automatically and does that for every character. If they enter 'status' it will run and fail an additional 5 times.
+4. It can break everything. It makes the data unretrievable because the program is trying to write one type of data as an explicitly stated other type.
+
+Ticket_batch
+1. A for loop is good because we know exactly how many times we need to run the loop. We aren't looking for a specific condition but a specific number of iterations.
+2. I used the continue in the final checks with age. If it was break, it would end the loop and not return all the other information and cost.
+
+Text wrangling
+1. kjdewitt@Kollins:~/.../module_2/hw_8$ grep ',S,' ticket_sales.txt
+Alice,20,6,S,13
+Eve,19,7,S,13
+Frank,65,3,S,5
+Ivy,17,4,S,10
+Leo,14,1,S,10
+Olivia,21,3,S,10
+Sam,22,5,S,10
+
+2. kjdewitt@Kollins:~/.../module_2/hw_8$ sed 's/,S,/,student,/g' ticket_sales.txt
+Name,age,day,category,price
+Alice,20,6,student,13
+Bob,70,3,G,13
+Carol,10,2,G,
+Dan,22,1,F,12
+Eve,19,7,student,13
+Frank,65,3,student,5
+Grace,45,5,G,18
+Henry,30,6,F,15
+Ivy,17,4,student,10
+Jack,80,3,G,13
+Kate,25,7,G,21
+Leo,14,1,student,10
+Maya,55,2,F,12
+Noah,12,6,G,
+Olivia,21,3,student,10
+Paul,33,7,F,15
+Quinn,68,6,G,21
+Rita,19,1,G,18
+Sam,22,5,student,10
+Tina,40,3,F,12
+
+3. kjdewitt@Kollins:~/.../module_2/hw_8$ awk -F',' 'NR > 1 && $5 != "" && $5 >= 15 {print $1}' ticket_sales.txt
+Grace
+Henry
+Kate
+Paul
+Quinn
+Rita
+
+4. kjdewitt@Kollins:~/.../module_2/hw_8$ awk -F',' 'NR > 1 && $2 >= 13 && $5 != "" {print $4}' ticket_sales.txt | sort | uniq -c | sort -nk1,1
+      5 F
+      6 G
+      7 S
+
+5. kjdewitt@Kollins:~/.../module_2/hw_8$ awk -F',' 'NR > 1 && $5 != "" {sum += $5; count++} END {printf "%.2f\n", sum / count}' ticket_sales.txt
+13.39
+
+1. uniq -c only counts consecutive lines. So we sort to have the same categories in a row.
+2. It's better because we can just pipe all the functions/calls together instead of writing a long program to get the same functionality. 
+3. I would still use C if this was something I needed to do with more complex problems. If it wasn't just text editing and analyzing. 
