@@ -1,0 +1,15 @@
+kjdewitt@Kollins:~/.../module_2/hw_9$ ./echo_line < sample.txt
+Write a word: Hello
+Characters: 5
+
+1. I used %-10s and %-15s for the price table and receipt respectively. I used them so they would be left aligned (the -) and have enough space for the words and values needed.
+
+2. There is a \n left in the input buffer.
+
+3. I ran into this issue initially. It runs the getchar with \n and shows the error then loops to allow them to try again.
+
+4. getchar returns the ASCII value for the character not the character itself. 
+
+5. putchar is good when you're using getchar. Also if you want to process character by character and not a lot of different pieces of information. I would use printf if it was a lot of information or included numbers and strings. Also for substituting in variables and formatting the output.
+
+6. The < calls the main function of the first file with the values of the second file.
